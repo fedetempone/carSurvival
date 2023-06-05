@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #474747;
+}
+
+#autoRojo{
+    height: 100px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+
+#autoAzul{
+    height: 100px;
+    position: sticky;
+    top: 12%;
+    right: 100%;
+}
+
+.imagenesAutos{
+    background: url('../img/pista.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+    margin: 0px auto;
+    max-width: 1170px;
+}
+
+.contenedorInstrucciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    height: 150px;
+    margin-top: 0px;
+    margin-left: -150px;
+}
+
+.botones{
+    display: flex;
+    text-align: center;
+}
+
+button{
+    margin-right: 10px;
+}
+
+.css-button-shadow--red {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #ef233c;
+    box-shadow: 0 3px 1px -2px #ccc, 0 2px 2px 0 #ccc, 0 1px 5px 0 #ccc;
+}
+.css-button-shadow--red:active {
+    box-shadow: 0 4px 2px -3px #ccc, 0 4px 5px 1px #ccc, 0 2px 7px 1px #ccc;
+}
+
+.css-button-shadow--blue {
+    min-width: 130px;
+    height: 40px;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: #3d348b;
+    box-shadow: 0 3px 1px -2px #ccc, 0 2px 2px 0 #ccc, 0 1px 5px 0 #ccc;
+}
+.css-button-shadow--blue:active {
+    box-shadow: 0 4px 2px -3px #ccc, 0 4px 5px 1px #ccc, 0 2px 7px 1px #ccc;
+}
+
+.finish{
+    position: absolute;
+    display: flex;
+    height: 350px;
+    background: black;
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    width: 300px;
+    margin-top: -213px;
+    margin-left: -150px;
+}
+
+.btnPlayAgain {
+	box-shadow:inset 0px 1px 0px 0px #a4e271;
+	background:linear-gradient(to bottom, #89c403 5%, #77a809 100%);
+	background-color:#89c403;
+	border-radius:6px;
+	border:1px solid #74b807;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528009;
+}
+.btnPlayAgain:hover {
+	background:linear-gradient(to bottom, #77a809 5%, #89c403 100%);
+	background-color:#77a809;
+}
+.btnPlayAgain:active {
+	position:relative;
+	top:1px;
+}
+
+.textRed{
+    color: red;
+}
+
+.textBlue{
+    color: blue;
+}
+

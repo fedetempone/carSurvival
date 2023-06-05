@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheets/styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="imagenesAutos">
+        <img id="autoRojo" src="./img/rojo.png" alt="">
+        <img id="autoAzul" src="./img/azul.png" alt="">
+    </div>
+    <div class="contenedorInstrucciones">
+        <div class="instruccionesTexto">
+            <h2>Cross the final line to Win</h2>
+        </div>
+        <div class="botones">
+            <div>
+                <p>PLAYER 1</p>
+                <button class="css-button-shadow--red">PRESS SPACE</button>
+            </div>
+            <div>
+                <p>PLAYER 2</p>
+                <button class="css-button-shadow--blue">PRESS ARROW RIGTH</button>
+            </div>
+        </div>
+    </div>
+    <div class="finish" style="display: none;">
+        <h3>¡ THANKS FOR PLAYING !</h3>
+        <button class="btnPlayAgain" onClick="window.location.reload();">Play Again</button>
+    </div>
+<script src="./script/main.js"></script>
+</body>
+</html>
